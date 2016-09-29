@@ -1,0 +1,27 @@
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 0;
+  border: 5px solid #222;
+/*   margin: 2%; */
+}
+
+#content div {
+  display: inline-block;
+  width: 43%;
+  height: 100px;
+  background: teal;
+  border: 5px solid #222;
+  margin: 2%;
+}
+
+@media (max-width: 500px) {
+  #content div {
+    width: 43%;
+    height: 100px;
+    background: gold;
+    border: 5px solid #222;
+    margin: 2%;
+  }
+}
